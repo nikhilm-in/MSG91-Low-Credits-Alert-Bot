@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8-slim
 
 # Uncomment the following two lines if the project does not have a requirements.txt 
 COPY requirements.txt /tmp/pip-tmp/
